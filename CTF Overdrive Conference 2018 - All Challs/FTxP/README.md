@@ -8,7 +8,7 @@ En este reto se nos daba una máquina (192.168.0.11) con diversos puertos abiert
 
 ![ftp1](https://user-images.githubusercontent.com/38633962/42778211-a6f6a1b6-893c-11e8-9de4-d385ee4a6559.png)
 
-Tras buscar por los el sistema y directorios comunes (carpetas personales, de sistema, etc.) no se encontró nada relevante. Lo único que se identificó fue un acceso directo de Windows que apuntaba a “flag.txt”, pero parecía ser que era la ubicación antigua del archivo y que ahora se encontraba en otra ubicación, ya que ahora ya no estaba en “C:\Documents and Settings\UdG\Desktop\”.
+Tras buscar por el sistema y directorios comunes (carpetas personales, de sistema, etc.) no se encontró nada relevante. Lo único que se identificó fue un acceso directo de Windows que apuntaba a “flag.txt”, pero parecía ser que era la ubicación antigua del archivo y que ahora se encontraba en otra ubicación, ya que ahora ya no estaba en “C:\Documents and Settings\UdG\Desktop\”.
 
 ![ftp2](https://user-images.githubusercontent.com/38633962/42778225-b4c6ec6a-893c-11e8-8fb7-188713cdb34e.png)
 
