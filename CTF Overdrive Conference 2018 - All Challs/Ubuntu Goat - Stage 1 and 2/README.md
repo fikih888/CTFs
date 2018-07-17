@@ -15,6 +15,7 @@ Al buscar potenciales archivos y directorios comunes que pudieran existir en el 
 Tras probar varias contraseñas por defecto (admin/admin, test/test, admin/passsword, etc.) sin éxito, se decidió automatizar un ataque de diccionario para intentar conseguir unas credenciales válidas.
 
 Para ello se utilizó la herramienta “THC Hydra” y el diccionario “rockyou.txt”:
+
 	hydra -l admin -P /diccionarios/rockyou.txt 192.168.0.21 http-get "/administration"
 
 Tras un rato, se consiguieron unas credenciales válidas (“admin/pirata”) y se pudo acceder al contenido del directorio web.
