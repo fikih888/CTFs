@@ -12,7 +12,7 @@ Tras navegar por la aplicación e identificar las distintas funcionalidades de l
 
 http://191.168.0.12/gallery/gallery/gallery.php?id=null+and+1=2+union+select+1,(select+group_concat(userid,0x3A,username,0x3A,password),3,4,5,6+from+gallarific_users--
 
-Una vez se consiguió acceso a la aplicación como usuario autenticado, se intentó obtener una shell o ejecución remota de comandos a través de la subida de imágenes y a través del propio SQLi, pero no hubo éxito. Así que tras analizar las distintas bases de datos que existían en el servidor SQL (y que nuestro usuario tenía acceso) se identificaron la base de datos “information_schema”, “mysql”, “os”, “performance_schema”, “sf” y “users”:
+Una vez se consiguió acceso a la aplicación como usuario autenticado, se intentó obtener una shell o ejecución remota de comandos a través de la subida de imágenes y a través del propio SQLi, pero no hubo éxito. Así que tras analizar las distintas bases de datos que existían en el servidor SQL (y que nuestro usuario tenía acceso) se identificaron “information_schema”, “mysql”, “os”, “performance_schema”, “sf” y “users”:
 
 ![multiverse_sqli1](https://user-images.githubusercontent.com/38633962/42779400-9d01a18e-8940-11e8-80c1-ac81b1e20653.png)
 
