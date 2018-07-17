@@ -10,7 +10,9 @@ Gracias a dirb, identificamos la aplicación “Gallarific” (ubicada en “/ga
 
 Tras navegar por la aplicación e identificar las distintas funcionalidades de la misma, se identificó que la aplicación era vulnerable a SQL injection en el parámetreo “id” del recurso “gallery.php” (https://www.exploit-db.com/exploits/15891/). Así que tras su explotación se consiguieron las credenciales de acceso a la misma (admin/g2c7t0z7) como administrador con la petición:
 
+```
 http://191.168.0.12/gallery/gallery/gallery.php?id=null+and+1=2+union+select+1,(select+group_concat(userid,0x3A,username,0x3A,password),3,4,5,6+from+gallarific_users--
+```
 
 Una vez se consiguió acceso a la aplicación como usuario autenticado, se intentó obtener una shell o ejecución remota de comandos a través de la subida de imágenes y a través del propio SQLi, pero no hubo éxito. Así que tras analizar las distintas bases de datos que existían en el servidor SQL (y que nuestro usuario tenía acceso) se identificaron “information_schema”, “mysql”, “os”, “performance_schema”, “sf” y “users”:
 
