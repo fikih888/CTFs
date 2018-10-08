@@ -77,7 +77,7 @@ As we cannot use letters, we use the character “?” to replace them.
 
 In the first try, we tried “../../../../../../../../../../???/??? ????.???” for “../../../../../../../../../../bin/cat flag.php” but we did not get any result. As we where in a “sandboxed_bin”, we would have to use “??? ????.???” to match with “/sandboxed_bin/cat flag.php”.
 
-So, putting all together, we created out request as “c.m.d=??? ????.???" and showed us the flag :)
+So, putting all together, we created our request as “c.m.d=??? ????.???" and showed us the flag :)
 
 ![inctf2018_wildcat2](https://user-images.githubusercontent.com/38633962/46628916-6f91bb80-cb3f-11e8-8560-3a356c1677ae.png)
 
