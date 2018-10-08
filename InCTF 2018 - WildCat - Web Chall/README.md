@@ -67,7 +67,7 @@ So, we cannot use any “_” in our query and we cannot use any “a-zA-Z0-9”
 
 The firs step is to bypass the first check (no “_”). 
 
-For this we can use the PHP functionality that converts “.” and spaces in “_”, using “c.m.d.” instead if “c_m_d”.
+For this we can use the PHP functionality that converts “.” and spaces into “_”, using “c.m.d.” instead if “c_m_d”.
 
 After that, we have to execute something to get the content of “flag.php” without using “ a-zA-Z0-9”.
 
