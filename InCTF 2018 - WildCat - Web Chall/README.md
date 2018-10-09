@@ -6,7 +6,7 @@
 
 ##### Points: 804
 
-##### Solves: 22
+##### Solves: 22/306
 
 ##### Description: Your task is to read the flag containing file.
 
