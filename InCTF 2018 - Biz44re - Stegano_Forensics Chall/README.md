@@ -6,7 +6,7 @@
 
 ##### Points: 856
 
-##### Solves: 19
+##### Solves: 19/306
 
 ##### Description: Kevin sent me a file with some hidden message. Help me recover this secret from this bizzare network.
 
